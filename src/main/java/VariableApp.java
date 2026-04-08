@@ -10,15 +10,19 @@ public class VariableApp {
         // Step 2
         int numOfDayInWeek;
         numOfDayInWeek = 7;
+        System.out.println("there are " + numOfDayInWeek + " days in a week");
 
         double coffeePrice;
         coffeePrice = 4.99;
+        System.out.println("The coffee will cost $" + coffeePrice);
 
         char faveLetter;
         faveLetter = 'H';
+        System.out.println("My favorite letter is " + faveLetter);
 
         boolean isRaining;
         isRaining = true;
+        System.out.println(isRaining);
 
     }
 }
